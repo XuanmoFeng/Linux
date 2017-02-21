@@ -1,0 +1,135 @@
+
+#ifndef _COMM_
+#define _COMM_
+#include<stdio.h>
+#include<sys/types.h>
+#include<sys/ipc.h>
+#include<sys/msg.h>
+#include<string.h>
+#define MES_SIZE 128
+#define SERVER_TYPE 0
+#define CLENT_TYPE 1
+struct msgbuf
+{
+	long type;
+	char msg[MES_SIZE];
+};
+int createmsgQueue();
+int getmsgQueue();
+int sendMessage(int id ,char *buf,int type);
+int recievMessage(int id ,void *buf ,int type);
+int destory(int id);
+
+#endif 
+#include "comm.h"
+static int commQueue(int type)
+{
+	key_t key=ftok(".",0);
+	if(key<0)
+	{
+		perror("ftok");
+		return -1;
+	}
+	int id = msgget(key,type);
+	if(id<0)
+	{
+		perror("msgget");
+		return -2;
+	}
+	return id;
+	
+}
+int createmsgQueue()
+{
+	return commQueue(IPC_CREAT |IPC_EXCL | 0666);
+}
+int getmsgQueue()
+{
+	return commQueue(IPC_CREAT);
+}
+int sendMessage(int id,char _buf[128],int type)
+{
+	struct msgbuf buf;
+	strcpy(buf.msg,_buf);
+	buf.type = type;
+	if(msgsnd(id,&buf,strlen(buf.msg),0)<0)
+	{
+		perror("sendMessage");
+		return -1;
+	}
+	return 1;
+}
+int reciveMessage(int id,char _buf[128], int type)
+{
+	struct msgbuf buf;
+	ssize_t _sz=msgrcv(id,&buf,strlen(buf.msg),type,0);
+	if (_sz<0)
+	{
+		perror("reciverMessage");
+	}	
+	buf.msg[_sz]='\0';
+	strcpy(_buf,buf.msg);
+	return _sz;
+}
+int destory(int id)
+{
+ int ret =msgctl(id,IPC_RMID,0);
+ if(ret <0)
+ {
+	 perror("destory");
+	 return -3;
+ }
+ printf("destory\n");
+}
+#include "comm.h"
+int main()
+{
+	int id = createmsgQueue();
+	if(id<0)
+	{
+		printf("main faile\n");
+	}
+	char buf[128];
+	while(1)
+	{
+		printf("等待中..\n");
+		int ret=reciveMessage(id,buf,CLENT_TYPE);
+		if(ret <0)
+		{
+			perror("RECEVERMessage");
+			return -4;
+		}
+		buf[ret]='\0';
+		printf("clent say:%s",buf);
+		sendMessage(id,buf,CLENT_TYPE);
+	}
+	destory(id);
+	return 0;
+
+}
+#include "comm.h"
+int main()
+{
+	//printf("server`");
+	int id = getmsgQueue();
+	if(id<0)
+	{
+		printf("main faile\n");
+	}
+	char buf[128];
+	while(1)
+	{
+		printf("clent#");
+		fflush(stdout);
+		int sz=read(0,buf,1024);
+		buf[sz]='\0';
+		sendMessage(id,buf,CLENT_TYPE);
+		char buf2[128];
+		if(reciveMessage(id,buf2,SERVER_TYPE)>0)
+		{
+			printf("server::%s",buf2);
+		}
+	}
+	return 0;
+
+}

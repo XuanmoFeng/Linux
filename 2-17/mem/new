@@ -1,0 +1,119 @@
+#ifndef _COMM_
+#define _COMM_
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include<unistd.h>
+#define PATHNAME "."
+#define FLAG 0x666
+#define SIZE 4096*2
+int creatShm();
+int getShm();
+//char *shmAt(int shm_id);
+//int shmDt(void* mem);
+int destory(int shm_id);
+
+
+#endif
+#include "comm.h"
+static int commShm(int flag)
+{
+	key_t id =ftok(PATHNAME,FLAG);
+	if(id <0)
+	{
+		perror("ftok");
+		return -1;
+	}
+	int ret = shmget(id,SIZE,flag);
+	if(ret <0)
+	{
+		perror("shmget");
+	}
+	return ret;
+}
+int creatShm()
+{
+	return commShm(IPC_CREAT|IPC_EXCL|0666);
+
+}
+int getShm()
+{
+	return commShm(IPC_CREAT);
+}
+/*char *shmAt(int shmid)
+{
+
+ char *ret= (char *)shmat(shmid,NULL,0);
+	return &ret;
+}
+int shmDt(void *mem)
+{
+	int ret= shmdt(mem);
+	if(ret<0)
+	{
+		perror("shmDt");
+		return -2;
+	}
+	return ret;
+}*/
+int destory(int shmid)
+{
+	int ret = shmctl(shmid,IPC_RMID,NULL);
+	if(ret<0)
+	{
+		perror("destory");
+		return -3;
+	}
+	return ret;
+}
+#include"comm.h"
+int main()
+{
+	int shmid =creatShm();
+	char *mem=(char*)shmat(shmid,NULL,0);
+	int i=0;
+	int count=5;	
+	while(count--)
+	{
+		printf("%s\n",mem);
+		sleep(1);
+	}
+	shmdt(mem);
+	sleep(5);
+	destory(shmid);
+	return 0;
+
+}
+#include "comm.h"
+int main()
+{
+	int shmid = getShm();
+	char *mem =(char*)shmat(shmid,NULL,0);
+	int count=5;
+	int i=0;
+	while(count--)
+	{
+		mem[i++]='A';
+		mem[i]='\0';
+		sleep(1);
+	}
+	shmdt(mem);
+	return 0;
+}
+clent=clent
+server=server
+cc=gcc
+cleSrc=clent.c
+serSrc=server.c
+commSrc=comm.c
+.PHONY:all
+all:$(clent) $(server)
+$(clent):$(cleSrc) $(commSrc)
+	$(cc) -o $@ $^
+$(server):$(serSrc) $(commSrc)
+	$(cc) -o $@ $^
+.PHONY:clean
+clean:
+	rm $(clent) $(server)
