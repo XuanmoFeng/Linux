@@ -1,0 +1,568 @@
+<!doctype html>
+<!-- Server: sfs-consume-12 -->
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        
+        
+        
+        <script type='text/javascript'>
+            /*global unescape, window, SF*/
+            // Setup our namespace
+            if (!window.SF) { window.SF = {}; }
+            if (!window.net) { window.net = {}; }
+            if (!window.net.sf) { window.net.sf = {}; }
+            SF.Ads = {};
+            SF.cdn = '//a.fsdn.com/con';
+            SF.deploy_time = '1487711137';
+        </script>
+        
+        <meta id="project_name" name="project_name" content="">
+        
+        <meta name="description" content="Free, secure and fast downloads from the largest Open Source applications and software directory - SourceForge.net">
+        <meta name="keywords" content="Open Source, Open Source Software, Development, Community, Source Code, Secure,  Downloads, Free Software">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+  Publish - SourceForge
+</title>
+        <link rel="shortcut icon" href="//a.fsdn.com/con/img/sftheme/favicon.ico">
+        
+        <script type="text/javascript">
+            /*global unescape, window, console, jQuery, $, net, SF, DD_belatedPNG, ga */
+            SF.ad_block_measurement = true;
+        </script>
+        
+<script src="//a.fsdn.com/con/js/sftheme/vendor/modernizr.3.3.1.custom.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/vendor/jquery-1.11.1.min.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.core.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/bootstrap.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/sticky.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/shared_head.js?1487711137" type="text/javascript"></script>
+
+
+<!--[if lt IE 7 ]>
+  <script src="//a.fsdn.com/con/js/sftheme/vendor/dd_belatedpng.js"></script>
+  <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+<![endif]-->
+
+
+<link href='//fonts.googleapis.com/css?family=Ubuntu:regular' rel='stylesheet' type='text/css'>
+<style type="text/css">
+    @font-face {
+        font-family: "Pictos";
+        src: url('//a.fsdn.com/con/css/fonts/sftheme/pictos-web.eot');
+        src: local("☺"), url('//a.fsdn.com/con/css/fonts/sftheme/pictos-web.woff') format('woff'), url('//a.fsdn.com/con/css/fonts/sftheme/pictos-web.ttf') format('truetype'), url('//a.fsdn.com/con/css/fonts/sftheme/pictos-web.svg') format('svg');
+    }
+</style>
+ <link rel="stylesheet" href="//a.fsdn.com/con/css/sf.css?1487711137" type="text/css">
+
+        <style type="text/css">.S7458e39e3bd5547d27a44f6a5a1220b96f62677c { display: none !important; }</style>
+
+        
+<script type="text/javascript">
+    SF.adblock = true;
+</script> 
+
+        
+
+        
+<!-- CCM Tag -->
+<script type="text/javascript">
+  (function () {
+    /*global _ml:true, window */
+    _ml = window._ml || {};
+    _ml.eid = '771';
+
+    var s = document.getElementsByTagName('script')[0], cd = new Date(), mltag = document.createElement('script');
+    mltag.type = 'text/javascript'; mltag.async = true;
+    mltag.src = '//ml314.com/tag.aspx?' + cd.getDate() + cd.getMonth() + cd.getFullYear();
+    s.parentNode.insertBefore(mltag, s);
+  })();
+</script>
+<!-- End CCM Tag -->
+
+        
+        <script type="text/javascript" src="//a.fsdn.com/con/js/adframe.js?1487711137"></script>
+        <script type="text/javascript">
+
+            /*jshint ignore:start*/
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            /*jshint ignore:end*/
+
+            //var $ = jQuery.noConflict(); // jshint ignore:line
+        </script>
+        <script type="text/javascript">
+            SF.devicePixelRatio = Math.round(window.getDevicePixelRatio()*10)/10;
+                ga('create', 'UA-36130941-1', {
+                    'name': '1', 'sampleRate': 9});
+                ga('create', 'UA-36130941-1', 'auto', {   'sampleRate': 9});
+            if (typeof _ml !== 'undefined' && _ml.us) {
+                if (_ml.us.tp && _ml.us.tp.length > 0) {
+                    ga('set', 'dimension2', _ml.us.tp[0]);
+                }
+                if (_ml.us.pc && _ml.us.pc.length > 0) {
+                    ga('set', 'dimension7', _ml.us.pc[0]);
+                }
+                ga('set', 'dimension3', _ml.us.ind);
+                ga('set', 'dimension4', _ml.us.cr);
+                ga('set', 'dimension5', _ml.us.cs);
+                ga('set', 'dimension6', _ml.us.dm);
+                ga('set', 'dimension8', _ml.us.sn);
+            }
+
+            
+                ga('set', 'dimension10', 'pg_publish');
+                    
+                ga('set', 'dimension13', 'Logged Out');
+                ga('set', 'dimension14', 'No');  
+                ga('set', 'dimension15', 'desktop');
+                ga('set', 'dimension16', 'sync');
+                ga('set', 'dimension17', SF.devicePixelRatio);
+                ga('send', 'pageview');
+
+            
+        </script>
+        <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView', document.title, {
+            dimension2: 'pg_publish',
+            dimension3: SF.devicePixelRatio
+        }]);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//analytics.slashdotmedia.com/";
+            _paq.push(['setTrackerUrl', u+'sf.php']);
+            _paq.push(['setSiteId', 39]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'sf.js'; s.parentNode.insertBefore(g,s);
+        })();
+        </script>
+
+        <script type="text/javascript"> try{(function(){ var cb = new Date().getTime(); var s = document.createElement("script"); s.defer = true; s.src = "//tag.crsspxl.com/s1.js?d=2396&cb="+cb; var s0 = document.getElementsByTagName('script')[0]; s0.parentNode.insertBefore(s, s0); })();}catch(e){} </script>
+
+
+    </head>
+    <body id="pg_publish" class=" anonymous ">
+        
+        
+
+        <div id="busy-spinner"></div>
+        
+
+<header id="site-header">
+    <div class="wrapper">
+        <a href="/" class="logo">
+            <span>SourceForge</span>
+        </a>
+        <form method="get" action="/directory/">
+            <input type="text" id="words" name="q" placeholder="Search">
+        </form>
+        <!--Switch to {language}-->
+        <nav id="nav-site">
+            <a href="/directory/" title="Browse our software.">Browse</a>
+            <a href="/directory/enterprise" title="Browse our Enterprise software.">Enterprise</a>
+            <a href="/blog/" title="Read the latest news from the SF HQ.">Blog</a>
+            <a href="//deals.sourceforge.net/?utm_source=sourceforge&amp;utm_medium=navbar&amp;utm_campaign=homepage" title="Discover and Save on the Best Gear, Gadgets, and Software" class="featured-link" target="_blank">Deals</a>
+            <a href="/support" title="Contact us for help and feedback.">Help</a>
+            <a href="/create"  class="featured-link blue" title="Create and publish Open Source software for free.">Create</a>
+        </nav>
+        <nav id="nav-account">
+            
+              <div class="logged_out">
+                  <a href="https://sourceforge.net/auth/">Log In</a>
+                <span>or</span>
+                <a href="https://sourceforge.net/user/registration">Join</a>
+              </div>
+            
+        </nav>
+    </div>
+</header>
+<header id="site-sec-header">
+    <div class="wrapper">
+        <nav id="nav-hubs">
+            <h4>Solution Centers</h4>
+            <a href="http://goparallel.sourceforge.net/">Go Parallel</a>
+        </nav>
+        <nav id="nav-collateral">
+            <a href="https://library.slashdotmedia.com/">Resources</a>
+            <a href="/user/newsletters?source=sfnet_header">Newsletters</a>
+
+            <a href="/cloud-storage-providers/?source=sfnet_header">Cloud Storage Providers</a>
+            <a href="/business-voip/?source=sfnet_header">Business VoIP Providers</a>
+            
+            <a href="/call-center-providers/?source=sfnet_header">Call Center Providers</a>
+        </nav>
+    </div>
+</header>
+
+
+        
+  <section id="the-next-sourceforge">
+    <div class="content">
+      
+      <div class="logo-holder">
+        <img src="//a.fsdn.com/con/img/features/sf-logo.png" alt="SourceForge Logo">
+      </div>
+      <div class="text-holder">
+        <h1>The Next SourceForge</h1>
+        <a class="primary-btn larger-btn" href="/p/add_project?source=pg_publish">Publish Your Existing Project</a>
+          <p>SourceForge is the #1 publisher for Open Source software, serving more
+            than 125 million downloads per month. We make it easy for Open Source
+          developers to distribute their software.</p>
+      </div>
+      
+    </div>
+  </section>
+  <section id="feature-overview">
+    <div class="content">
+      <div class="row">
+        <section class="block">
+          <section class="card">
+            <b data-icon="," class="ico ico-throttle" title="Throttle"></b>
+            <h2><a href="#unlimited-bandwidth">Free, Unlimited Bandwidth</a></h2>
+            <p>Our free, managed, global mirror network provides a better experience for your downloaders.</p>
+            <h2>4,895,900 downloads today.</h2>
+          </section>
+        </section>
+        <section class="block">
+          <section class="card">
+            <b data-icon="Y" class="ico ico-stats" title="Stats"></b>
+            <h2><a href="#analytics">Analytics</a></h2>
+            <p>Our analytics make it easy for developers to collect user download data from your project stats dashboard.</p>
+          </section>
+        </section>
+      </div>
+      <div class="row">
+        <section class="block">
+          <section class="card">
+            <b data-icon="G" class="ico ico-global" title="Global"></b>
+            <h2><a href="#premier-visibility">Premier Visibility</a></h2>
+            <p>Reach more users and gain market share in the Open Source landscape with your own custom project page.</p>
+          </section>
+        </section>
+        <section class="block">
+          <section class="card">
+            <b data-icon="k" class="ico ico-heart" title="Heart"></b>
+            <h2><a href="#trusted-name">Trusted Name in Open Source</a></h2>
+            <p>Since 1999, thousands of projects have chosen SourceForge to host not just their source code, but also their project communities. You'll be in great company.</p>
+          </section>
+        </section>
+      </div>
+    </div>
+  </section>
+
+
+        
+<div id="messages">
+</div>
+
+
+
+        <div id="page-body">
+  <section id="feature-holder">
+    <section id="unlimited-bandwidth" class="feature">
+      <section class="description">
+        <h2>Free, Unlimited Bandwidth</h2>
+        <p><strong>Our free, managed, global mirror network provides a better experience for your downloaders.</strong></p>
+        <ul>
+          <li>Extensive worldwide mirror network</li>
+          <li>Mark your files as official releases</li>
+          <li>SourceForge detects a downloader's platform and provides them with an appropriate release.</li>
+          <li>You'll get download stats over time, by platform, and by region.</li>
+        </ul>
+        <h2>4,895,900 downloads today.</h2>
+      </section>
+      <section class="screenshot">
+        <a rel="prefetch" href="//a.fsdn.com/con/img/features/downloads-full.png" title="Download Statistics"><img src="//a.fsdn.com/con/img/features/downloads-thumb.png" alt="Download Statistics"></a>
+      </section>
+    </section>
+
+    <section id="trusted-name" class="feature">
+      <section class="screenshot">
+        <img src="//a.fsdn.com/con/img/features/os-thumb.jpg" alt="Open Source" title="Open Source" id="small-img">
+      </section>
+      <section class="description">
+        <h2>Trusted Name in Open Source</h2>
+        <p><strong>Since 1999, thousands of projects have chosen SourceForge to host not just their source code, but also their project communities. You'll be in great company.</strong></p>
+        <ul>
+          <li><a href="/projects/vlc">VLC</a></li>
+          <li><a href="/projects/openofficeorg.mirror">Apache OpenOffice</a></li>
+          <li><a href="/projects/azureus">Azureus / Vuze</a></li>
+          <li><a href="/projects/sevenzip">7-Zip</a></li>
+        </ul>
+      </section>
+    </section>
+
+    <section id="premier-visibility" class="feature">
+      <section class="description">
+        <h2>Premier Visibility</h2>
+        <p><strong>How will anyone know about your project if they can't find it? Your project is added to our
+            Open Source Directory where potential users can browse and search for software.</strong></p>
+        <ul>
+          <li>Create your own custom project page.</li>
+          <li>Categorize your project by topic, platform, license, etc.</li>
+          <li>We promote great projects as a staff pick, featured project, or project of the month.</li>
+          <li>Users can review and recommend your project.</li>
+          <li>Your project page can be shared with Twitter, Facebook, and Google+.</li>
+        </ul>
+      </section>
+      <section class="screenshot">
+        <a rel="prefetch" href="//a.fsdn.com/con/img/features/directory-full.png" title="Directory"><img src="//a.fsdn.com/con/img/features/directory-thumb.png" alt="Directory"></a>
+      </section>
+    </section>
+
+    <section id="analytics" class="feature">
+      <section class="screenshot">
+        <a rel="prefetch" href="//a.fsdn.com/con/img/features/stats-full.png" title="Download statistics"><img src="//a.fsdn.com/con/img/features/stats-thumb.png" alt="Download statistics"></a>
+      </section>
+      <section class="description">
+        <h2>Analytics</h2>
+        <p><strong>Our analytics make it easy for developers to collect user download
+            data from your personal stats dashboard.
+        </strong></p>
+        <p>Our analytics are completely free, take no time to set up, and are continuously updated
+          with the most advanced feature set. We track your downloads for all
+          platforms including Windows, Mac, and Linux.
+        </p>
+        <p>Learn how, and where your software is downloaded and use this
+          information to improve traffic acquisition. With our analytics, you
+          can focus on improving your product roadmaps to increase engagement
+          and monetization!
+        </p>
+      </section>
+    </section>
+    <section id="get-started">
+      <h1>Ready? Let's get started.</h1>
+      <a class="primary-btn larger-btn" href="/p/add_project?source=pg_publish">Publish Your Project Now</a>
+    </section>
+  </section>
+
+        </div>
+        
+
+        
+            
+    <div id="overlay-blockthis-wrapper">
+    <div id="overlay-blockthis">
+        <div class="instructions">
+            <h2>Thanks for helping keep SourceForge clean.</h2>
+            <p>
+            <u>Screenshot instructions:</u><br>
+            <a data-external target=_blank href="http://windows.microsoft.com/en-us/windows/take-screen-capture-print-screen#take-screen-capture-print-screen=windows-8">Windows</a><br>
+            <a data-external target=_blank href="https://support.apple.com/en-us/HT201361">Mac</a><br>
+            <a data-external target=_blank href="https://access.redhat.com/solutions/2178">Red Hat Linux</a> &nbsp;
+            <a data-external target=_blank href="https://help.ubuntu.com/stable/ubuntu-help/screen-shot-record.html">Ubuntu</a>
+            </p>
+            <p>
+                <u>Click URL instructions:</u><br>
+                Right-click on ad, choose "Copy Link", then paste here &rarr;<br>
+                (This may not be possible with some types of ads)
+            </p>
+            <a class="more-info" href="https://sourceforge.net/p/forge/documentation/Report%20a%20problem%20with%20Ad%20content/" target="_blank">More information about our ad policies</a>
+        </div>
+        <form class="dropzone" action="/api/instrumentation/gpt" id="blockthisForm" method="POST">
+            <a href="#" id="btn-blockthis-close">X</a>
+            
+  <input type="hidden" name="_visit_cookie" value="58ad797bdab0ca641075bece"/>
+                <input type='hidden' name='timestamp' value='1487763838'/>
+                <input type='hidden' name='spinner' value='XW:mO39Q_3SkNaJMGu:vfCreqpZA'/>
+                <p class='S7458e39e3bd5547d27a44f6a5a1220b96f62677c'><label for='XXIHhsbFG7RlFzsxaGhMZd40HVxk'>You seem to have CSS turned off.
+             Please don't fill out this field.</label><input id='XXIHhsbFG7RlFzsxaGhMZd40HVxk' name='XXYHhsbFG7WGrN8:nQy2iMBpYLNs' type=
+             'text'/></p>
+                <p class='S7458e39e3bd5547d27a44f6a5a1220b96f62677c'><label for='XXIHhsbFG7RhFzsxaGhMZd40HVxk'>You seem to have CSS turned off.
+             Please don't fill out this field.</label><input id='XXIHhsbFG7RhFzsxaGhMZd40HVxk' name='XXYHhsbFG7GGrN8:nQy2iMBpYLNs' type=
+             'text'/></p>
+            <p>Briefly describe the problem (required):
+            <input name="XUI3rrLdNtFl5Afxo802AVhZSY:0" type="text" required>
+            </p>
+
+            <div class="upload-text">Upload screenshot of ad (required):</div>
+            <div id='upload-it'>
+                <a href="#" onclick="return false">Select a file</a>, or drag & drop file here.
+            </div>
+            <div id="upload-it-placeholder"></div> 
+
+            <div class="dropzone-previews" style="display: none"></div>
+            <div class="dz-message" style="display: none"></div> 
+            
+            <div id="dropzone-preview-template" style="display: none">
+                <div class="dz-preview dz-file-preview">
+                    <img data-dz-thumbnail src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt=""/>
+                    <div class="dz-success-mark"><span>✔</span></div>
+                    <div class="dz-error-mark"><span>✘</span></div>
+                    <div class="dz-error-message"><span data-dz-errormessage></span></div>
+                </div>
+            </div>
+            <p></p>
+            <p>Please provide the ad click URL, if possible:
+            <input name="XUoritrdUglx_BNug5Ld:8nHXnz0" type="url">
+            </p>
+            <textarea id="gpt-info" name="XX43vq7V3e3ZRyWvAxtFy:D7htR0"></textarea>
+            <input type="submit" id="btn-blockthis-submit" value="Submit Report">
+        </form>
+    </div>
+    </div>
+
+        
+
+        <script type="text/javascript" src="//ads.pro-market.net/ads/scripts/site-143572.js"></script>
+
+<footer id="site-footer">
+    <div class="wrapper">
+        <nav>
+            <h5>SourceForge</h5>
+            <a href="/about">About</a>
+            <a href="/blog/category/sitestatus/">Site Status</a>
+            <a href="http://twitter.com/sfnet_ops">@sfnet_ops</a>
+        </nav>
+        <nav>
+            <h5>Find and Develop Software</h5>
+            <a href="/create/">Create a Project</a>
+            <a href="/directory/">Software Directory</a>
+            <a href="/top">Top Downloaded Projects</a>
+        </nav>
+        <nav>
+            <h5>Community</h5>
+            <a href="/blog/">Blog</a>
+            <a href="http://twitter.com/sourceforge">@sourceforge</a>
+            <a href="https://library.slashdotmedia.com/">Resources</a>
+        </nav>
+        <nav>
+            <h5>Help</h5>
+            <a href="http://p.sf.net/sourceforge/docs">Site Documentation</a>
+            <a href="/support">Support Request</a>
+        </nav>
+    </div>
+</footer>
+<footer id="site-copyright-footer">
+    <div class="wrapper">
+        <div id="copyright">
+            &copy; 2017 Slashdot Media. All Rights Reserved.<br />
+        </div>
+        <nav>
+            <a href="https://slashdotmedia.com/terms-of-use/">Terms</a>
+            <a href="https://slashdotmedia.com/privacy-statement/">Privacy</a>
+            <span id='teconsent'></span>
+            <a href="https://slashdotmedia.com/opt-out-choices/">Opt Out Choices</a>
+            <a href="https://slashdotmedia.com">Advertise</a>
+        </nav>
+    </div>
+</footer>
+
+        
+<script src="//a.fsdn.com/con/js/sftheme/vendor/dropzone-4.3.0.min.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/vendor/dragster.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.metadata.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery-ui-1.11.1.custom.min.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.cookie.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.truncate-2.3.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.elastic.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/daterangepicker.jQuery.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.tablesorter.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.pjax.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.scrollTo-1.4.2.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.utils.format.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.fancybox-2.1.5.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.hoverIntent.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.nivo.slider.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.rating.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.twitter.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.validate.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.qtip.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/date.format.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/string.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/bootstrap-scrollspy.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/handlebars.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/lib/jquery.dotdotdot-1.8.1.min.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/jquery.notify.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/shared.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/jquery.sf.reviewform.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/jquery.seltext.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/jquery.drawer.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/jquery.files.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/humanize.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/widgets.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/global.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/stats.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/project.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/registration.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/reviews.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/screenshots.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/directory.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/index.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/madmen.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sftheme/vendor/foundation6.min.js?1487711137" type="text/javascript"></script>
+<script src="//a.fsdn.com/con/js/sandiego/chrome.js?1487711137" type="text/javascript"></script>
+
+
+        
+<div id="newsletter-floating" class="goth-form">
+    <h2>Get latest updates about Open Source Projects, Conferences and News.</h2>
+    <p>Sign up for the SourceForge newsletter:</p>
+    
+<form action="/user/newsletters/subscribe" method="post">
+    <div class="form">
+        <input type="email" name="XXozjvr1TlY9SNDL:fZblp0Uj7oA"  placeholder="email@address.com" value="">
+    <input type="submit" value="Subscribe" class="bt">
+    </div>
+    <div class="fielderror"></div>
+
+    <p class="details">
+    <span class="fielderror"></span>
+    <label>
+        <input type="checkbox" required name="XXIrhsadas11FzsxaGhMZd40HVxk" value="true" checked>I agree to receive quotes, newsletters and other information from sourceforge.net and its partners regarding IT services and products. I understand that I can withdraw my consent at any time. Please refer to our <a href="https://slashdotmedia.com/privacy-statement/">Privacy Policy</a> or <a href="/support">Contact Us</a> for more details
+        <input type="hidden" name="XVofrurBMgkpiBuBj1Z:XrOj2BGg" value="true">
+    </label>
+    </p>
+
+    <input type="hidden" name="source" value="floating">
+    <input type="hidden" name="XV4rhqrpLr1BSC_xi3qN5VesLXVY" value="CN">
+    <input type="hidden" name="XSIrhqrpLr1BSC_xi3rSsZcLYxvU" value="ip_address">
+    <input type="hidden" name="XUIfrqKdTuF15DeF1802AVhZSY:0" value="sitewide">
+    <input type="hidden" name="XUIfrqKdTuF15DeF1802AVhZSY:0" value="research">
+    <input type="hidden" name="XUIfrqKdTuF15DeF1802AVhZSY:0" value="events">
+    <input type="hidden" name="XUIfrqKdTuF15DeF1802AVhZSY:0" value="thirdparty">
+    <input type="hidden" name="XUIfrqKdTuF15DeF1802AVhZSY:0" value="all">
+    <input type="hidden" name="XWILjqpyZgnWskFV7gUYtg_y6KM4" value="">
+    
+  <input type="hidden" name="_visit_cookie" value="58ad797bdab0ca641075bece"/>
+    <input type='hidden' name='timestamp' value='1487763838'/>
+    <input type='hidden' name='spinner' value='XW:mO39Q_3SkNaJMGu:vfCreqpZA'/>
+    <p class='S7458e39e3bd5547d27a44f6a5a1220b96f62677c'><label for='XXIHhsbFG7BlFzsxaGhMZd40HVxk'>You seem to have CSS turned off.
+             Please don't fill out this field.</label><input id='XXIHhsbFG7BlFzsxaGhMZd40HVxk' name='XXYHhsbFG7WGrN8:nQy2iMBpYLNs' type=
+             'text'/></p>
+    <p class='S7458e39e3bd5547d27a44f6a5a1220b96f62677c'><label for='XXIHhsbFG7BhFzsxaGhMZd40HVxk'>You seem to have CSS turned off.
+             Please don't fill out this field.</label><input id='XXIHhsbFG7BhFzsxaGhMZd40HVxk' name='XXYHhsbFG7GGrN8:nQy2iMBpYLNs' type=
+             'text'/></p>
+</form>
+
+    <a id="btn-float-close">No, thanks</a>
+</div>
+
+        
+
+        
+            <script type="text/javascript" src="//consent-st.truste.com/get?name=notice.js&amp;domain=slashdot.org&amp;c=teconsent&amp;text=true"></script>
+            <noscript><p><img src="//analytics.slashdotmedia.com/sf.php?idsite=39" style="border:0;" alt="" /></p></noscript>
+<script>
+$(function($){
+    $('a[rel=prefetch]').fancybox({
+        type: 'image',
+        transitionIn: 'none',
+        transitionOut: 'none',
+        titlePosition: 'inside'
+    });
+});
+</script>
+        
+      </body>
+</html>
+

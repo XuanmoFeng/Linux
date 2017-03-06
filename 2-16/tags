@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+P	comm.c	/^int P(int id,int which)$/;"	f
+V	comm.c	/^int V(int id ,int which)$/;"	f
+cc	makefile	/^cc=gcc$/;"	m
+comShm	comm.c	/^static int comShm(int flag)$/;"	f	file:
+creatShm	comm.c	/^int creatShm()$/;"	f
+destory	comm.c	/^int destory(int id,int which)$/;"	f
+getShm	comm.c	/^int getShm()$/;"	f
+initShm	comm.c	/^int initShm(int sem_id,int which,int value)$/;"	f
+main	server.c	/^int main()$/;"	f
+serSrc	makefile	/^serSrc=server.c comm.c$/;"	m
+server	makefile	/^server=server$/;"	m
