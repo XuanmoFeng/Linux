@@ -16,7 +16,7 @@ int Start(int _port, const char *ip)
 	}
 	struct sockaddr_in sockAdd;
 	sockAdd.sin_family= AF_INET;
-	sockAdd.sin_port=_port;
+	sockAdd.sin_port=htons(_port);
 	inet_aton(ip,&sockAdd.sin_addr);
 	if( bind(sock,(struct sockaddr*)&sockAdd,sizeof(sockAdd)) < 0)
 	{
@@ -54,11 +54,17 @@ int main(int argc,char *argv[])
 		while(1)
 		{
 			char buf[1024];
-			fflush(stdout);
-			ssize_t _s = read(sockfd,buf,sizeof(buf));
-			buf[_s-1]=0;
+			ssize_t _s = read(sockfd,buf,sizeof(buf)-1);
+			buf[_s]=0;
 			if(_s>0)
-				printf("Client##%s\n",buf);		
+			{
+				printf("Client##%s\n",buf);
+			}
+			else
+			{
+				printf("Client ip:: %s结束响应\n");
+				break;
+			}
 		}
 		close(sockfd);
 	}
